@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="x-icon" href="images/klogo.png">
+    <link rel="stylesheet" href="fontawesome-free-6.5.1-web\css\all.min.css">
+    <script src="https://kit.fontawesome.com/7a7d6d066a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="typed.umd.js"></script>
+    <title>Abeni-Portfolio</title>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/ablogo.jpg" class="logo">
+            <ul id="sidemenu"> 
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#certificate">Certificates</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa fa-times-circle" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa fa-bars" onclick="openmenu()"></i>  
+        </nav>
+        <div class="header-text">
+            <h1>Hi, I'm<br> <span>Abenezer Sileshi</span><br> from Ethiopia </h1>
+            <p>And I'm <span class="im"></span></p>
+        </div>
+        </div>
+  </div>
+
+  <!----------------------------------about-------------------------------------------------->
+  <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/photo2.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    Experienced developer proficiency in Python,Java,HTML,CSS and Javascript, with expertise in PHP and Django Rest Framework for building large-scale
+                    projects.Currently expanding skills into Machine Learning,Deep Learning and Artificial Intellegience. Passionate about leveraging technology
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                    <li><span>Web Development</span><br>Advanced full functional website</li>
+                    <li><span>Java Development</span><br>Building Fullstack software with Java GUI</li>
+                    <li><span>ML/AI Engineer</span><br>Building Different Projects with ML</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                    <li><span>2022 - 2025</span><br>Incubation Center at Dilla University</li>
+                    <li><span>2023 - 2025</span><br>Apex Consultancy Company</li>
+                    <li><span>2024 - 2025</span><br>Internship at Code IT Solution</li>    
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                    <li><span>Computer Engineering</span><br>BSC from Dilla University</li>
+                    <li><span>Python , Python Data Structure</span><br>University of MICHIGAN </li>
+                    <li><span>Machine Learning </span><br>Stanford University</li>
+                    <li><span>Maths for Data Science</span><br>Duke University</li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+<!-----------------------------services------------------------------------------------>
+<div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Backend Web Developer</h2>
+                    <p> Ensure the design is responsive, compatible with various devices and browsers, and accessible to users with disabilities.</p>
+                    <a href="#contact">Contact Me</a>
+                    </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>ML/AI Engineer</h2>
+                    <p>Develop user flows, information architecture, and wireframes to create intuitive and user-friendly website interfaces.</p>
+                    <a href="#contact">Contact Me</a>
+                    </div>
+                <div>
+                    <i class="fa fa-coffee" aria-hidden="true"></i>
+                    <h2>Java Programmer</h2>
+                    <p>Have a strong command of the Java programming language, including core libraries and frameworks.<br></p>
+                    <a href="#contact">Contact Me</a>
+                    </div>
+            </div>
+        </div>
+</div>
+  <!--------------------------portfolio------------------------------------------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/busticker.jpg">
+                <div class="layer">
+                    <h3>Bus Ticket Reservation System</h3>
+                    <p>This system is a user-friendly platform designed to facilitate easy booking of bus tickets.</p>
+                    <a target="_blank" href=""><i class="fas fa-external-link-alt    "></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/OnlineExam.jpg">
+                <div class="layer">
+                    <h3>Online Examination System</h3>
+                    <p>It is a digital Platform that enables educators to create,administer, and grade exams over the internet</p>
+                    <a target="_blank" href="#"><i class="fas fa-external-link-alt    "></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Elearning.jpg">
+                <div class="layer">
+                    <h3>Advanced E-Learning System</h3>
+                    <p>This software is designed for proctors to manage students by registering, withdrawing, changing student information and take attendance within 24 hours.</p>
+                    <a href="#"><i class="fas fa-external-link-alt    "></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/abeni-hub" class="btn">See More</a>
+    </div>
+  </div>
+<!---------------------------------Certificates-------------------------------------------------->
+<div id="certificate">
+    <div class="container">
+        <h1 class="sub-title">My Certificates</h1>
+        <div class="certificates">
+            <div class="certificate">
+                <img src="certificate/PythonEv.PNG">
+                <div class="layer">
+                    <h3>Python For EverBody</h3>
+                    <p>By MICHIGAN</p>
+                    <a target="_blank" href="https://www.coursera.org/account/accomplishments/verify/R3CNLSQT763Y">Verify</a>
+                </div>
+            </div>
+            <div class="certificate">
+                <img src="certificate/pythData.PNG">
+                <div class="layer">
+                    <h3>Python Data Structure</h3>
+                    <p>By MICHIGAN</p>
+                     <a target="_blank" href="https://www.coursera.org/account/accomplishments/verify/C63RB8W539AP">Verify</a>
+                </div>
+            </div>
+            <div class="certificate">
+                <img src="certificate/Duke.PNG">
+                <div class="layer">
+                    <h3>Data Science</h3>
+                    <p>By Duke</p>
+                    <a target="_blank" href="https://www.coursera.org/account/accomplishments/verify/N38PZNBWWTL3">Verify</a>
+                </div>
+            </div>
+            <div class="certificate">
+                <img src="certificate/Supervised.PNG">
+                <div class="layer">
+                    <h3>Supervised Machine Learning</h3>
+                        <p>By Stanford</p>
+                    <a target="_blank" href="https://www.coursera.org/account/accomplishments/verify/VB6KXNHV2RR3">Verify</a>
+                </div>
+            </div>
+            <div class="certificate">
+                <img src="certificate/Advanced alg.PNG">
+                <div class="layer">
+                    <h3>Advanced Learning Algorithm</h3>
+                        <p>By Stanford</p>
+                    <a target="_blank" href="https://www.coursera.org/account/accomplishments/verify/U2NTQZXPDG6X">Verify</a>
+                </div>
+            </div>
+            <div class="certificate">
+                <img src="certificate/ProjMang.PNG">
+                <div class="layer">
+                    <h3>Project Management</h3>
+                    <p>By GreatLearning</p>
+                    <a target="_blank" href="https://coursera.org/verify/8MGSAUU9ZSGV">Verify</a>
+                </div>
+            </div>
+            <!-- <div class="certificate">
+                <img src="certificate/meta3.png">
+                <div class="layer">
+                    <h3>Programming with Javascript</h3>
+                    <p>By Meta</p>
+                    <a target="_blank" href="https://coursera.org/verify/SLTZX783EP7C">Verify</a>
+                </div>
+            </div> -->
+            <div class="certificate">
+                <img src="certificate/Django.jpg">
+                <div class="layer">
+                    <h3>Django</h3>
+                    <p>By MindLuster</p>
+                    <a target="_blank" href="https://www.coursera.org/account/accomplishments/verify/C63RB8W539AP">Verify</a>
+                </div>
+            </div>
+            <div class="certificate">
+                <img src="certificate/Advanced Django.jpg">
+                <div class="layer">
+                    <h3>Advanced Web Development with Django</h3>
+                    <p>By MindLuster</p>
+                    <a target="_blank" href="https://www.coursera.org/account/accomplishments/verify/R3CNLSQT763Y">Verify</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------------------------contact me---------------------------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p class="emailp"><a target="_blank" href="#"><i class="fa fa-paper-plane" aria-hidden="true"></i></a> abinesilew@gmail.com</p>
+                <p class="phonep"><a href="#" target="_blank"><i class="fa fa-phone" aria-hidden="true"></i></a> 0965562373</p>
+                <div class="social-icons">
+                    <a target="_blank" href="https://www.facebook.com/profile.php?id=100076878441082"><i class="fa fa-facebook-square"></i></a>
+                    <!-- <a target="_blank" href="https://twitter.com/atsewcaleb"><i class="fa fa-twitter"></i></a> -->
+                    <a target="_blank" href="https://www.instagram.com/abeni4102/"><i class="fa fa-instagram"></i></a>
+                    <a target="_blank" href="https://github.com/abeni-hub"><i class="fa fa-github"></i></a>
+                    <a target="_blank" href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
+                    <a target="_blank" href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a>
+                </div>
+                <a href="cv/EditedCV.pdf" download target="_blank" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <input type="text" name="Subject"  placeholder="Your Subject">
+                    <textarea name="Message" rows=6 placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ abeni. Made by <span> Abeni </span>with the help of Easy Tutorial <i id="youtube" class="fa fa-youtube"></i></p>
+    </div>  
+</div>
+
+<!------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------>
+<!----------------------------------javascript---------------------------------------------------------------------------------->
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+  </script>
+
+<!----------typer------------->
+  <script>
+    var typed=new Typed(".im",{
+        strings: ["Backend Developer", "Software Developer","Python Developer","ML/AI Engineer"],
+        typeSpeed: 100,
+        backSpeed: 100,
+        backDelay: 1000,
+        loop: true
+    })
+  </script>
+
+
+  <script>
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right="0";
+    }
+    function closemenu(){
+        sidemeu.style.right="-150px";
+    }
+  </script>
+
+
+
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw0-Rj790Z5eR2XUnGWKUjTyxViRR_I_34wlry2BhcsZ3p9UgNYo-ofvGIWpEMEf1ApzA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
