@@ -187,7 +187,7 @@
                 <div class="layer">
                     <h3>Project Management</h3>
                     <p>By GreatLearning</p>
-                    <a target="_blank" href="">Verify</a>
+                    <a target="_blank" href="https://olympus.mygreatlearning.com/courses/66443/certificate">Verify</a>
                 </div>
             </div>
             <!-- <div class="certificate">
@@ -203,7 +203,7 @@
                 <div class="layer">
                     <h3>Django</h3>
                     <p>By MindLuster</p>
-                    <a target="_blank" href="https://www.coursera.org/account/accomplishments/verify/C63RB8W539AP">Verify</a>
+                    <a target="_blank" href="https://www.mindluster.com/student/certificate/17558855211">Verify</a>
                 </div>
             </div>
             <div class="certificate">
@@ -211,7 +211,7 @@
                 <div class="layer">
                     <h3>Advanced Web Development with Django</h3>
                     <p>By MindLuster</p>
-                    <a target="_blank" href="https://www.coursera.org/account/accomplishments/verify/R3CNLSQT763Y">Verify</a>
+                    <a target="_blank" href="https://www.mindluster.com/student/certificate/17558857627">Verify</a>
                 </div>
             </div>
         </div>
@@ -299,16 +299,16 @@
 
 
 
-  <script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbw0-Rj790Z5eR2XUnGWKUjTyxViRR_I_34wlry2BhcsZ3p9UgNYo-ofvGIWpEMEf1ApzA/exec'
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzJWRcgL4P008CxU1WMRyYn3gg3QMlyd98Cc1c1OKCGvJvtNueEu_8WkRhN-rGKbVnk/exec'
     const form = document.forms['submit-to-google-sheet']
-    const msg = document.getElementById("msg")
-
+    const msg = document.getElementsById("msg")
+  
     form.addEventListener('submit', e => {
       e.preventDefault()
       fetch(scriptURL, { method: 'POST', body: new FormData(form)})
         .then(response => {
-            msg.innerHTML = "Message Sent Successfully"
+            msg.innerHTML = "Message sent successfully"
             setTimeout(function(){
                 msg.innerHTML = ""
             },5000)
